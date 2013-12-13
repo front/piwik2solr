@@ -1,0 +1,10 @@
+{
+  "name": "piwik2solr",
+  "version": "0.0.1-alpha",
+  "author": "Elio Cro <elio@front.no>",
+  "description": "Store Piwik stats into Apache Solr",
+  "dependencies": {
+    "request": "2.x.x",
+    "moment": "2.x.x"
+  }
+}
