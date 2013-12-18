@@ -26,7 +26,7 @@ function getList (idSub, path) {
   }
 
   request.get({
-    url: 'http://stats.newsfront.no/index.php',
+    url: setts.piwikUrl,
     qs: qs
   },
   function (err, res, body) {
